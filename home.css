@@ -1,0 +1,139 @@
+
+* { 
+    margin: 0px;
+    padding: 0px;
+ }
+ header{
+   background-image: url(homephoto.jpeg);  
+-webkit-background-size:cover;
+background-size:cover;
+background-position: center center;
+height: auto;
+ }
+ #homeheading{
+    text-align:center;
+    padding-top:2%;
+    padding-bottom:1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 5em;
+    background: linear-gradient(to right, #E2C044 0%, #61521d 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+ 
+ 
+ 
+  .nav{
+    list-style-type:none;
+background-color: #393E41;
+background-image: radial-gradient( #003046,  #011721 );
+overflow:hidden;
+    padding:1em;
+text-align:center;
+  } 
+
+ h2{
+   padding-top:5%;
+   padding-bottom:3%;
+   text-align:center;
+   
+   color:#202121;
+   font-family:"Optima", sans-serif;
+   
+ }
+ h3{
+   text-align:center;
+    color:#2f3030;
+   font-family:"Optima", sans-serif;
+  
+ }
+ 
+ 
+ a{
+   text-decoration:none;
+   color:#61521d;
+ }
+  
+li{
+   display:inline;
+ }
+ li a{
+   text-decoration:none;
+   color:#D3D0CB;
+   font-family: "Roboto", sans-serif;
+   font-size:1em;
+   padding:1em;
+   text-shadow:1px 1px black;
+   
+   
+ }
+ li a:hover {
+   background-color:#E2C044;
+   background-image: radial-gradient( #E2C044,black );
+ }
+ #wCSNHS{
+    margin-left:10%;
+ }
+ #explanation{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ }
+ .question{
+    text-decoration:solid underline;
+    color:#042459;
+ }
+ #contact{
+    border-top:10px double #61521d;
+  margin-left:15%;
+  margin-right:15%;
+    padding-top: 3%;
+    margin-top:5%;
+    padding-bottom:1%;
+    color:#042459;
+ }
+ #hCSNHS{
+    margin:3%;
+ }
+ #lamar{
+    color:#042459;
+    color:#D3D0CB;
+    font-size:2.5em;
+    text-align:left;
+    margin-left: 5%;
+    padding-top:5%;
+ }
+ #website{
+    color:#042459;
+    color:#D3D0CB;
+    font-size:2.5em;
+    text-align:right;
+    margin-right:10%;
+    padding-bottom:5%;
+ }
+ #logo{
+    margin-left:2%;
+    margin-right:10%;
+ }
+ #email{
+padding-bottom:1%;
+ }
+ #instagram{
+    padding-bottom:10%;
+ }
+
+ #join{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+#howtojoin{
+   display:grid;
+   margin-right:5%;
+}
+#photo{
+   width:50%;
+   height:auto;
+   margin-left:5%;
+   margin-top:5%;
+}
