@@ -1,5 +1,4 @@
-
-* { 
+* {
     margin: 0px;
     padding: 0px;
  }
@@ -19,6 +18,7 @@ height: auto;
     background: linear-gradient(to right, #E2C044 0%, #61521d 100%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+ 
  }
  
  
@@ -30,7 +30,7 @@ background-image: radial-gradient( #003046,  #011721 );
 overflow:hidden;
     padding:1em;
 text-align:center;
-  } 
+  }
 
  h2{
    padding-top:5%;
@@ -45,7 +45,7 @@ text-align:center;
    text-align:center;
     color:#2f3030;
    font-family:"Optima", sans-serif;
-  
+ 
  }
  
  
@@ -53,7 +53,7 @@ text-align:center;
    text-decoration:none;
    color:#61521d;
  }
-  
+ 
 li{
    display:inline;
  }
@@ -102,6 +102,7 @@ li{
     text-align:left;
     margin-left: 5%;
     padding-top:5%;
+    text-shadow: 3px 3px black;
  }
  #website{
     color:#042459;
@@ -110,6 +111,7 @@ li{
     text-align:right;
     margin-right:10%;
     padding-bottom:5%;
+    text-shadow: 3px 3px black;
  }
  #logo{
     margin-left:2%;
@@ -137,3 +139,57 @@ padding-bottom:1%;
    margin-left:5%;
    margin-top:5%;
 }
+#footer{
+   margin-top: 5%;
+   width: 100%;
+   padding-top:5%;
+   padding-bottom:5%;
+   background-color:#042459;
+   color:#D3D0CB;
+   display: flex;
+   font-family: "Roboto", sans-serif;
+   font-size:1em;
+}
+#footer div{
+   text-align:center;
+   
+}
+#col-1{
+ 
+   margin-right:auto;
+   margin-left:22%;
+}
+#col-2{
+   
+margin-left:auto;
+margin-right:22%;
+}
+
+.footert{
+   color:#D3D0CB;
+}
+#col-1 a{
+display:block;
+}
+#footerheaderl {
+   margin-bottom:5%;
+}
+#footerheaderc{
+   margin-bottom:5%;
+}
+#col-2 a{
+   display: block;
+}
+#instalogo{
+   font-size:30px;
+}
+
+#creators{
+   background-color:#042459;
+   color:#D3D0CB;
+   padding-bottom:2%;
+   font-family: "Roboto", sans-serif;
+   font-size:100%;
+   text-align:center;
+}
+
