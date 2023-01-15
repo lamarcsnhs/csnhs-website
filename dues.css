@@ -63,8 +63,11 @@ height: auto;
 
 #dheader
 {
+  margin-top:5%;
+  margin-bottom:5%;
       font-size: 2em;
       text-decoration: double underline 4px;
+      font-family:"Optima", sans-serif;
       padding-bottom:1%;
       color:#042459;
       text-align:center;
@@ -72,11 +75,80 @@ height: auto;
 
 .subtext
     {
+      font-family:"Optima", sans-serif;
       margin-left:5%;
       margin-right:5%;
+      margin-bottom:5%;
+      text-align:center;
     }
+    .subtext a
+    {
+text-decoration:none;
+color:#61521d;
+    }
+   
 
 #link
     {
-      margin-bottom:10%;
+      margin-bottom:15%;
+      text-decoration:solid underline;
     }
+
+
+    #footer{
+      margin-top: 5%;
+      width: 100%;
+      padding-top:5%;
+      padding-bottom:5%;
+      background-color:#042459;
+      color:#D3D0CB;
+      display: flex;
+      font-family: "Roboto", sans-serif;
+      font-size:1em;
+   }
+   #footer div{
+      text-align:center;
+     
+   }
+   #col-1{
+     
+      margin-right:auto;
+      margin-left:22%;
+   }
+   #col-2{
+     
+   margin-left:auto;
+   margin-right:22%;
+   }
+   
+   .footert{
+      color:#D3D0CB;
+   }
+   #col-1 a{
+   display:block;
+   text-decoration:none;
+   }
+   #footerheaderl {
+      margin-bottom:10%;
+   }
+   #footerheaderc{
+      margin-bottom:10%;
+   }
+   #col-2 a{
+      display: block;
+      text-decoration:none;
+   }
+   #instalogo{
+      font-size:30px;
+   }
+   .footerspace{
+      margin-bottom:2%;
+   }
+   #creators{
+      background-color:#042459;
+      color:#D3D0CB;
+      padding-bottom:2%;
+      font-family: "Roboto", sans-serif;
+      font-size:100%;
+      text-align:center;
+   }
