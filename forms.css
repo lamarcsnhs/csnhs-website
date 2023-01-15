@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  header{
+    background-image: url(formsphoto.jpg);  
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  height: auto;
+  }
+  #heading{
+      text-align:center;
+      padding-top:8%;
+      padding-bottom:8%;
+      font-family: "Roboto", sans-serif;
+      font-size: 5em;
+      background: linear-gradient(to right, #E2C044 0%, #61521d 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ 
+  }
+ 
+  .nav{
+      list-style-type:none;
+  background-color: #393E41;
+  background-image: radial-gradient( #003046,  #011721 );
+      overflow:hidden;
+      padding:1em;
+  text-align:center;
+    }
+    h2{
+      padding-top:5%;
+      padding-bottom:3%;
+      text-align:center;
+     
+      color:#202121;
+      font-family:"Optima", sans-serif;
+     
+    }
+    a{
+        text-decoration:none;
+        color:#61521d;
+      }
+       
+      li{
+        display:inline;
+      }
+      li a{
+        text-decoration:none;
+        color:#D3D0CB;
+        font-family: "Roboto", sans-serif;
+        font-size:1em;
+        padding:1em;
+        text-shadow:1px 1px black;
+       
+       
+      }
+      li a:hover {
+        background-color:#E2C044;
+        background-image: radial-gradient( #E2C044,black );
+      }
+      #formsheading{
+        font-size: 2em;
+        text-decoration: double underline 4px;
+        padding-bottom:1%;
+        color:#042459;
+   
+      }
+      #footer{
+        margin-top: 10%;
+        width: 100%;
+        padding-top:5%;
+        padding-bottom:5%;
+        background-color:#042459;
+        color:#D3D0CB;
+        display: flex;
+        font-family: "Roboto", sans-serif;
+        font-size:1em;
+     }
+     #footer div{
+        text-align:center;
+       
+     }
+     #col-1{
+       
+        margin-right:auto;
+        margin-left:22%;
+     }
+     #col-2{
+       
+     margin-left:auto;
+     margin-right:22%;
+     }
+     
+     .footert{
+        color:#D3D0CB;
+     }
+     #col-1 a{
+     display:block;
+     }
+     #footerheaderl {
+        margin-bottom:5%;
+     }
+     #footerheaderc{
+        margin-bottom:5%;
+     }
+     #col-2 a{
+        display: block;
+     }
+     #instalogo{
+        font-size:30px;
+     }
+     
+     #creators{
+        background-color:#042459;
+        color:#D3D0CB;
+        padding-bottom:2%;
+        font-family: "Roboto", sans-serif;
+        font-size:100%;
+        text-align:center;
+     }
