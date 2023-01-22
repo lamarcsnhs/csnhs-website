@@ -1,4 +1,4 @@
-* {
+* { 
     margin: 0px;
     padding: 0px;
  }
@@ -18,7 +18,7 @@ height: auto;
     background: linear-gradient(to right, #E2C044 0%, #61521d 100%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
- 
+  
  }
  
  
@@ -30,7 +30,7 @@ background-image: radial-gradient( #003046,  #011721 );
 overflow:hidden;
     padding:1em;
 text-align:center;
-  }
+  } 
 
  h2{
    padding-top:5%;
@@ -45,7 +45,7 @@ text-align:center;
    text-align:center;
     color:#2f3030;
    font-family:"Optima", sans-serif;
- 
+  
  }
  
  
@@ -53,7 +53,7 @@ text-align:center;
    text-decoration:none;
    color:#61521d;
  }
- 
+  
 li{
    display:inline;
  }
@@ -139,6 +139,28 @@ padding-bottom:1%;
    margin-left:5%;
    margin-top:5%;
 }
+#sponsormessage{
+   margin-top:5%;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   margin-bottom:6%;
+}
+#woolweaver{
+   width:30%;
+   height:auto;
+   margin-left:3%;
+   margin-right:5%;
+   margin-top:5%;
+   float:right;
+   
+}
+#message{
+   display:grid;
+   margin-left:5%;
+   text-align:justify;
+}
+  
 #footer{
    margin-top: 5%;
    width: 100%;
@@ -155,7 +177,7 @@ padding-bottom:1%;
    
 }
 #col-1{
- 
+  
    margin-right:auto;
    margin-left:22%;
 }
@@ -192,4 +214,3 @@ display:block;
    font-size:100%;
    text-align:center;
 }
-
